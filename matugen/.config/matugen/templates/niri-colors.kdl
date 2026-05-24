@@ -1,0 +1,14 @@
+layout {
+    focus-ring {
+        width 1
+        active-color "{{colors.primary.default.hex}}"
+        inactive-color "{{colors.surface_variant.default.hex}}"
+    }
+    border {
+        off
+        width 4
+        active-color "{{colors.tertiary.default.hex}}"
+        inactive-color "{{colors.surface_variant.default.hex}}"
+        urgent-color "{{colors.error.default.hex}}"
+    }
+}
